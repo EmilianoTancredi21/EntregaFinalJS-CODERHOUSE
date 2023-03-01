@@ -1,0 +1,97 @@
+[{
+    "id" : 0,
+    "titulo": "Dragon ball Z Budokai - PS2",
+    "imagen": "db-budokai.jpg",
+    "genero": "Lucha",
+    "precio":  2000,
+    "cantidad": 8
+},
+{
+    "id" : 1,
+   "titulo": "Dragon ball Z Budokai 2 - PS2",
+   "imagen": "db-budokai2.jpg",
+   "genero": "Lucha",
+   "precio":  2500,
+   "cantidad": 8
+   },
+   {
+    "id" : 2,
+   "titulo": "Dragon ball Z Budokai 3 - PS2",
+   "imagen": "db-budokai3.jpg",
+   "genero": "Lucha Rpg",
+   "precio":  2800,
+   "cantidad": 8 
+   },
+   {
+    "id" : 3,
+   "titulo": "Dragon ball Z Budokai Tenkaichi - PS2",
+   "imagen": "db-budokaitenkaichi.jpg",
+   "genero": "Lucha",
+   "precio":   3000,
+   "cantidad": 8
+   },
+   {
+    "id" : 4,
+   "titulo": "Dragon ball Z Budokai Tenkaichi 2 - PS2",
+   "imagen": "db-budokaitenkaichi2.jpg",
+   "genero": "Lucha Rpg",
+   "precio":  3200,
+   "cantidad": 8
+   },
+   {
+    "id" : 5,
+   "titulo": "Dragon ball Z Budokai Tenkaichi 3 - PS2",
+   "imagen": "db-budokaitenkaichi3.jpg",
+   "genero": "Lucha",
+   "precio":  3500,
+   "cantidad": 8 
+   },
+   {
+    "id" : 6,
+   "titulo": "Dragon ball Z Raging Blast - PS3",
+   "imagen": "db-ragingblast.jpg",
+   "genero": "Lucha",
+   "precio":  3700,
+   "cantidad": 8 
+   },
+   {
+    "id" : 7,
+   "titulo": "Dragon ball Z Raging Blast 2 - PS3",
+   "imagen": "db-ragingblast2.jpg",
+   "genero": "Lucha",
+   "precio":  3800,
+   "cantidad": 8
+   },
+   {
+    "id" : 8,
+   "titulo": "Dragon ball Z Battle of Z - PS3",
+   "imagen": "db-battleofz.jpg",
+   "genero": "Lucha",
+   "precio":  3200,
+   "cantidad": 8
+   },
+   {
+    "id" : 9,
+   "titulo": "Dragon ball Z The Breakers - PS4",
+   "imagen": "db-breakers.jpg",
+   "genero": "Battle Royale",
+   "precio":  4200,
+   "cantidad": 8 
+   },
+   {
+    "id" : 10,
+   "titulo": "Dragon ball Z Burst Limit - PS3",
+   "imagen": "db-burstlimit.jpg",
+   "genero": "Lucha",
+   "precio":  2900,
+   "cantidad": 8 
+   },
+   {
+    "id" : 11,
+   "titulo": "Dragon ball Z FighterZ - PS4",
+   "imagen": "db-fighterz.jpg",
+   "genero": "Lucha",
+   "precio":  3900,
+   "cantidad": 8
+   }
+]
