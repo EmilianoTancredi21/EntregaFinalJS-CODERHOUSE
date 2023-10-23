@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@400;500&display=swap');
+
+@font-face {
+    font-family: "Saiyan-Sans";
+    src: url("../fonts/Saiyan-Sans\ Left\ Oblique.ttf");
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -6,11 +14,12 @@
 
 .principal{
     text-align: center;
+    border-radius: 4px;
     font-size: 3rem;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     margin: 30px;
-    color: rgb(31, 31, 31);
+    color: black;
     background-color: rgb(218, 113, 191);
 }
 
@@ -30,11 +39,20 @@ body{
     background-image: url(../img/backgroundz.png);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
 }
 
 
 div .card{
     background-color: rgba(17, 18, 19, 0.692);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    vertical-align: top;
+    margin: 1rem;
 }
 
 
@@ -82,7 +100,6 @@ div .card-title{
 #offcanvas img{
     width: 300px;
     object-fit: cover;
-    margin-left: 25px;
 }
 
 #offcanvas h3{
@@ -107,13 +124,26 @@ div .card-title{
 .btnEliminar{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 4px;
-    border-color: rgb(59, 109, 150);
     border-radius: 4px;
     color: white;
-    background-color: steelblue;
-    margin-left: 140px;
+    width: 50%;
 }
 
+.contenedorCarrito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorCarrito hr{
+    width: 100%;
+}
+
+.title-game{
+    width: 100%;
+    border-radius: 5px;
+}
 
 .botones{
     display: flex;
@@ -121,3 +151,83 @@ div .card-title{
     margin-top: 30px;
 }
 
+.search{
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+      
+    }
+
+    .search input{
+
+     height: 60px;
+     text-indent: 25px;
+    }
+
+
+    .search input:focus{
+
+     box-shadow: none;
+     border: 2px solid rgb(255, 145, 0);
+
+
+    }
+
+    .search .fa-search{
+
+     position: absolute;
+     top: 20px;
+     left: 16px;
+
+    }
+
+    .search button{
+
+     position: absolute;
+     top: 5px;
+     right: 5px;
+     height: 50px;
+     width: 110px;
+     border: none;
+     border-radius: 5px;
+    }
+
+
+    .juegos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* gap: 10px; */
+        margin: 20px 0px 0px 0px;
+    }
+
+
+    .capsule{
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .offcanvas-title{
+        border-bottom: 2px solid gray;
+        border-radius: 3px;
+    }
+
+
+    .bodyContainer{
+        margin-top: 20px;
+        text-align: center;
+        overflow-y: scroll;
+    }
+
+
+    .noResult{
+        text-align: center;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .noResult img{
+        border-radius: 10px;
+    }

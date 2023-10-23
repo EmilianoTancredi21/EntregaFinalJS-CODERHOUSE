@@ -93,5 +93,109 @@
    "genero": "Lucha",
    "precio":  3900,
    "cantidad": 8
-   }
+   },
+   {
+    "id": 12,
+    "titulo": "Dragon Ball Z Kakarot - PS4",
+    "imagen": "db-kakarot.jpg",
+    "genero": "RPG",
+    "precio": 4500,
+    "cantidad": 8
+ },
+ {
+    "id": 13,
+    "titulo": "Dragon Ball Xenoverse - PS4",
+    "imagen": "db-xenoverse.jpg",
+    "genero": "Lucha",
+    "precio": 3400,
+    "cantidad": 8
+ },
+ {
+    "id": 14,
+    "titulo": "Dragon Ball Xenoverse 2 - PS4",
+    "imagen": "db-xenoverse2.jpg",
+    "genero": "Lucha",
+    "precio": 3600,
+    "cantidad": 8
+ },
+ {
+    "id": 15,
+    "titulo": "Dragon Ball Legends - PSX",
+    "imagen": "db-legends.jpg",
+    "genero": "Lucha",
+    "precio": 2500,
+    "cantidad": 8
+ },
+ {
+    "id": 16,
+    "titulo": "Dragon Ball GT Final Bout - PS5",
+    "imagen": "db-finalbout.jpg",
+    "genero": "Lucha",
+    "precio": 2300,
+    "cantidad": 8
+ },
+ {
+    "id": 17,
+    "titulo": "Dragon Ball Ultimate Battle 22 - PSX",
+    "imagen": "db-ultimatebattle22.jpg",
+    "genero": "Lucha",
+    "precio": 2000,
+    "cantidad": 8
+ },
+ {
+    "id": 18,
+    "titulo": "Dragon Ball: The Legacy of Goku - GBA",
+    "imagen": "legacy.png",
+    "genero": "RPG",
+    "precio": 1800,
+    "cantidad": 8
+ },
+ {
+    "id": 19,
+    "titulo": "Dragon Ball Advanced Adventure - GBA",
+    "imagen": "db-advance.jpg",
+    "genero": "Acción",
+    "precio": 1700,
+    "cantidad": 8
+ },
+ {
+    "id": 20,
+    "titulo": "Dragon Ball Z: Shin Budokai - PSP",
+    "imagen": "shin.png",
+    "genero": "Lucha",
+    "precio": 2300,
+    "cantidad": 8
+ },
+ {
+    "id": 21,
+    "titulo": "Dragon Ball Z Budokai - Another Road PSP",
+    "imagen": "shin2.jpg",
+    "genero": "Lucha",
+    "precio": 2500,
+    "cantidad": 8
+ },
+ {
+    "id": 22,
+    "titulo": "Dragon Ball Z: Sagas - PS2",
+    "imagen": "sagas.png",
+    "genero": "Acción",
+    "precio": 2200,
+    "cantidad": 8
+ },
+ {
+    "id": 23,
+    "titulo": "Dragon Ball Z: Hyper Dimension - SNES",
+    "imagen": "hyper.jpeg",
+    "genero": "Lucha",
+    "precio": 1600,
+    "cantidad": 8
+ },
+{
+ "id": 24,
+ "titulo": "Super Dragon Ball Z - PS2",
+ "imagen": "super.png",
+ "genero": "Lucha",
+ "precio": 2500,
+ "cantidad": 8
+}
 ]

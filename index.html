@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!-- Bootstrap -->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <title>Ecommerce Dbz!</title>
-   <!-- Toastify css -->
-   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-   <!-- Estilos de css -->
-   <link rel="stylesheet" href="./estilos/estilos.css">
-   <title>Inicio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/capsuleCorp.png" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>CAPSULE CORP GAMING</title>
+    <!-- Toastify css -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- Estilos de css -->
+    <link rel="stylesheet" href="./estilos/estilos.css">
+    <title>Inicio</title>
 </head>
+
 <body class="">
 
 
-	<header>
+    <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand ms-5" href="index.html">
@@ -26,60 +30,90 @@
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto me-5 align-items-center">
-                        <div class="col-6">
-                            <button id="botonDarkMode" class="btn btn-dark mx-5">
-                                Dark
-                            </button>
-                        </div>
+                    <ul class="navbar-nav ms-auto align-items-center">
+                        <li class="nav-item">
+                            <div class="row d-flex justify-center align-items-center gap-2">
+                                <div class="col-3">
+                                    <button id="botonDarkMode" class="btn btn-secondary mx-2">
+                                        Dark
+                                    </button>
+                                </div>
 
-                        <div class="col-3">
-                            <button id="botonLightMode" class="btn btn-light">
-                                Light
-                            </button>
-                        </div>
+                                <div class="col-3">
+                                    <button id="botonLightMode" class="btn btn-light">
+                                        Light
+                                    </button>
+                                </div>
 
-                                <button id="botonCarrito" class="btn btn-dark" type="button" data-bs-toggle="offcanvas"
-                                    data-bs-target="#offcanvas" aria-controls="offcanvas">
-                                    🛒
-                                </button>
-                        
+                                <div class="col-4">
+                                    <button id="botonCarrito" class="btn btn-dark" type="button"
+                                        data-bs-toggle="offcanvas" data-bs-target="#offcanvas"
+                                        aria-controls="offcanvas">
+                                        🛒
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-  
 
-		<h1 class="principal">Tienda Virtual DBZ</h1>
-		
-		<!-- div a capturar -->
-		<div class="contenedor">
-			<div id="resultado"></div>
-			<div id="juegos" class="row mx-5"></div>
-		</div>
+
+    <h1 class="principal">CAPSULE CORP GAMING <span><img src="/img/capsuleCorp.png" alt="" class="capsule"></span></h1>
+
+    <!-- SearchBar -->
+
+    <div class="container">
+        <div class="row height d-flex justify-content-center align-items-center">
+            <div class="col-md-8 contenedor">
+                <div class="search">
+                    <i class="fa fa-search"></i>
+                    <input type="text" class="form-control" placeholder="Buscar producto..." id="searchInput">
+                    <button>🔎</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- div a capturar -->
+    <div class="contenedor">
+        <div id="resultado"></div>
+        <!-- <div id="juegos" class="row mx-5"></div> -->
+        <div id="juegos" class="juegos"></div>
+        <div id="noResultMessage" style="display: none;" class="noResult">
+            <h2>No se encontraron coincidencias</h2>
+            <img src="./img/404.gif" alt="">
+        </div>
+
+    </div>
 
 
     <!-- Contenido de off canvas  -->
-		<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
-			<div class="offcanvas-header">
-				<h4 class="offcanvas-title" id="tituloC">Carrito de compras</h4> 
-				<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-			</div>
-			<div class="offcanvas-body container" id="offcanvasBody">
-				
-		</div>
-		<!-- Contenido de off canvas, end.  -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+        <div class="offcanvas-header">
+            <h4 class="offcanvas-title" id="tituloC">Carrito de compras🐉</h4>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body container" id="offcanvasBody">
 
-		<!-- Toastify JS -->
-		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-		<!-- Sweet Alert -->
-		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-		<!-- Script -->
-		<script src="./javascript/app.js"></script>
-		<script src="./javascript/darkMode.js"></script>
-		<!-- Bootstrap5 -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        </div>
+        <!-- Contenido de off canvas, end.  -->
+
+        <!-- Toastify JS -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+        <!-- Sweet Alert -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <!-- Script -->
+        <script src="./javascript/app.js"></script>
+        <script src="./javascript/darkMode.js"></script>
+        <!-- Bootstrap5 -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
 </body>
+
 </html>
